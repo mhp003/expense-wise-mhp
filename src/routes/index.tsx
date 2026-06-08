@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button";
-import { Wallet, PieChart, Search, Shield, TrendingUp, Sparkles } from "lucide-react";
+import { Wallet, PieChart, Search, Shield, TrendingUp } from "lucide-react";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -38,9 +38,6 @@ function Index() {
       >
         <div className="container mx-auto px-4 py-20 md:py-28 relative">
           <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-xs font-medium backdrop-blur">
-              <Sparkles className="h-3.5 w-3.5" />
-            </div>
             <h1 className="mt-6 text-4xl md:text-6xl font-bold tracking-tight leading-tight">
               Take control of your every expense.
             </h1>
