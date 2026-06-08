@@ -42,7 +42,7 @@ function Index() {
               <Sparkles className="h-3.5 w-3.5" /> Built for students & professionals
             </div>
             <h1 className="mt-6 text-4xl md:text-6xl font-bold tracking-tight leading-tight">
-              Take control of every dollar you spend.
+              Take control of every BDT you spend.
             </h1>
             <p className="mt-6 text-lg md:text-xl text-white/80 max-w-2xl">
               ExpenseWise helps you log daily expenses, organize them by category, and visualize
