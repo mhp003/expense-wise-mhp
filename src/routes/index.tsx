@@ -39,10 +39,10 @@ function Index() {
         <div className="container mx-auto px-4 py-20 md:py-28 relative">
           <div className="max-w-3xl">
             <div className="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-xs font-medium backdrop-blur">
-              <Sparkles className="h-3.5 w-3.5" /> Built for students & professionals
+              <Sparkles className="h-3.5 w-3.5" />
             </div>
             <h1 className="mt-6 text-4xl md:text-6xl font-bold tracking-tight leading-tight">
-              Take control of every BDT you spend.
+              Take control of your every expense.
             </h1>
             <p className="mt-6 text-lg md:text-xl text-white/80 max-w-2xl">
               ExpenseWise helps you log daily expenses, organize them by category, and visualize
