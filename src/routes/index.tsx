@@ -111,7 +111,7 @@ function Index() {
 
       <footer className="border-t">
         <div className="container mx-auto px-4 py-6 text-sm text-muted-foreground text-center">
-          © {new Date().getFullYear()} ExpenseWise · CSE 472 Project
+          © {new Date().getFullYear()} ExpenseWise ·&nbsp;
         </div>
       </footer>
     </div>
