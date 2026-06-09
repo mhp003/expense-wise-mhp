@@ -69,10 +69,7 @@ function AuthPage() {
           },
         });
         if (error) {
-          const msg = /invalid login credentials/i.test(error.message)
-            ? "Invalid login credentials. Please check your email and password."
-            : error.message;
-          toast.error(msg);
+          toast.error(error.message);
           return;
         }
         toast.success("Account created! Welcome to ExpenseWise.");
